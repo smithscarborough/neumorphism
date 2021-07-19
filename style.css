@@ -1,0 +1,28 @@
+body {
+    background: #efeeee;
+}
+
+.neumorphic {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #efeeee;
+    border: 1px solid #ffffff33;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: -6px -6px 16px 0 #ffffff7f, 6px 6px 16px 0 #d1cdc77f;
+    display: flex;
+}
+
+.text {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+}
